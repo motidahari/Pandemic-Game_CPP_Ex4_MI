@@ -103,5 +103,7 @@ inline std::string getCityAsString(City city){
     case Tokyo : return "Tokyo"; break; 
     case Washington : return "Washington"; break; 
     }
+
+    return "None";
 }
 
